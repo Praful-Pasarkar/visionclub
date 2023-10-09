@@ -1,0 +1,53 @@
+Open Chrome browser
+Search for Google Colab
+Open Google colab (colab.research.google.com)
+Log in with your gmail account
+Click on Menu --> File --> New notebook
+Click on "+ Code"
+Now look at the ARROW in black circle
+click in front of this ARROW in black circle
+Type over there 
+print('This is my first Google Colab test')
+Now click on the ARROW in black circle
+the code written will get executed.
+Click on the "+ Text" button and type 
+	You can write the text here. The above step is to print the specific text using python language.
+
+Click on "+ Code"
+type the following in the code area:
+%pip install pandas
+%pip install Sklearn
+%pip install tensorflow
+%pip install matplotlib
+%pip install numpy
+
+Click on the ARROW in black circle now. 
+Please note the output should look like this:
+	Requirement already satisfied: pandas ....
+	Requirement already satisfied: python- ....
+	...
+	installing Sklearn ...
+	...
+	Requirement already satisfied: numpy ....
+	
+
+Click on "+ Code"
+	import tensorflow as tf
+
+	from tensorflow.keras import datasets, layers, models
+	import matplotlib.pyplot as plt
+Click on the ARROW in black circle now. 
+
+Click on "+ Code"
+	(train_images, train_labels), (test_images, test_labels) = datasets.cifar10.load_data()
+
+	# Normalize pixel values to be between 0 and 1
+	train_images, test_images = train_images / 255.0, test_images / 255.0
+Click on the ARROW in black circle now. 	
+
+
+All above steps should be executed without any issues. 
+Now Look at the Top left Google Colab icon. Next to it is Untitled*.pynb (* will be some number)
+Click on the "Untitled*" and replace it with "YS_Google_Colab _Test"
+
+This completes the test!!!
